@@ -105,7 +105,8 @@ function downloadFromFacebook() {
   FACEBOOK_DOWNLOAD_URL=$(printf "$FACEBOOK_BASE_URL" "$ARTIFACT_ID" "$VERSION")
   PACKAGE_ZIP="package-$ARTIFACT_ID-$VERSION.zip"
   ARTIFACT_NAME=$(printf "%s-%s" "$ARTIFACT_ID" "$VERSION")
-  FACEBOOK_AAR="$ARTIFACT_NAME/%s/%s.aar"
+  FACEBOOK_AAR="./%s/%s.aar"
+  #FACEBOOK_AAR="$ARTIFACT_NAME/%s/%s.aar"
 
   if [ ! -f "$PACKAGE_ZIP" ]; then
     pushd $PROJECT_ROOT > /dev/null
@@ -121,7 +122,7 @@ function downloadFromFacebook() {
       FACEBOOK_AAR_FILE=$(printf "$FACEBOOK_AAR" "$MODULE" "$MODULE")
       cp $FACEBOOK_AAR_FILE "$OUTPUT_PATH" || die "Failed to move $FACEBOOK_AAR_FILE to $OUTPUT_PATH"
     done
-  rm $PACKAGE_ZIP
+  #rm $PACKAGE_ZIP
   rm -rf $ARTIFACT_NAME
 }
 

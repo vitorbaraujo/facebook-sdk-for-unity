@@ -1,0 +1,561 @@
+checking packages...
+MSBuild auto-detection: using msbuild version '15.0' from '/usr/local/Cellar/mono/5.20.1.19/lib/mono/msbuild/15.0/bin'.
+All packages listed in packages.config are already installed.
+checking packages done.
+~/fb-update/facebook-sdk-for-unity/facebook-android-wrapper/libs ~/fb-update/facebook-sdk-for-unity
+~/fb-update/facebook-sdk-for-unity
+
+LICENSE SYSTEM [2019510 16:54:12] Next license update check is after 2019-05-11T16:47:59
+
+DisplayProgressbar: Unity license
+[Package Manager] Server::Start -- Port 61567 was selected
+Launching external process: /Applications/Unity/Unity.app/Contents/Resources/Upm/upm-macos
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-quit
+-batchmode
+-logFile
+-projectPath=/Users/marcossilva/fb-update/facebook-sdk-for-unity/UnitySDK
+-importPackage
+/Users/marcossilva/fb-update/facebook-sdk-for-unity/play-services-resolver.unitypackage
+/Users/marcossilva/fodase/Fodase
+Loading GUID <-> Path mappings...0.000065 seconds
+Loading Asset Database...0.015886 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.094057 seconds
+Refreshing native plugins compatible for Editor in 31.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resolving 4 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.8
+    (location: /Users/marcossilva/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8)
+[Package Manager]  * Package :  com.unity.analytics@2.0.13
+    (location: /Users/marcossilva/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13)
+[Package Manager]  * Package :  com.unity.purchasing@0.0.19
+    (location: /Users/marcossilva/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.10
+    (location: /Users/marcossilva/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.4.26f1 (3b349d10f010)
+GfxDevice: creating device client; threaded=0
+Renderer: AMD Radeon Pro 560X OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-2.4.10
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 277171200
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/Mono/lib/mono/2.0'
+Mono config path = '/Applications/Unity/Unity.app/Contents/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56574
+Begin MonoManager ReloadAssembly
+Initializing Unity.PackageManager (PackageManager) v2017.4.26 for Unity v2017.4.26f1
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004695 seconds.
+System.SystemException: Error running gmcs: Cannot find the specified file
+  at Mono.CSharp.CSharpCodeCompiler.CompileFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFile (System.CodeDom.Compiler.CompilerParameters options, System.String fileName) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 System.SystemException: Error running gmcs: Cannot find the specified file
+  at Mono.CSharp.CSharpCodeCompiler.CompileFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFileBatch (System.CodeDom.Compiler.CompilerParameters options, System.String[] fileNames) [0x00000] in <filename unknown>:0 
+  at Mono.CSharp.CSharpCodeCompiler.CompileAssemblyFromFile (System.CodeDom.Compiler.CompilerParameters options, System.String fileName) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.GenerateSerializers (System.Xml.Serialization.GenerationBatch batch, System.CodeDom.Compiler.CompilerParameters cp) [0x00000] in <filename unknown>:0 
+  at System.Xml.Serialization.XmlSerializer.RunSerializerGeneration (System.Object obj) [0x00000] in <filename unknown>:0 
+
+Registering platform support modules:
+Registered platform support modules in: 0.137697s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.049842s.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 6.41 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.033221 seconds.
+Initializing Unity.PackageManager (PackageManager) v2017.4.26 for Unity v2017.4.26f1
+Registering platform support modules:
+Registered platform support modules in: 0.081513s.
+Native extension for OSXStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for LinuxStandalone target not found
+Native extension for WebGL target not found
+Native extension for iOS target not found
+[XcodeApplications] RefreshListOfAvailableXcodeApplications in: 0.00632s.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004753 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.066069 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+
+----- Total AssetImport time: 0.059137s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Warming cache for 327 main assets: 0.000580 seconds elapsed
+Initializing Unity extensions:
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ '/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 290.7 MB.
+System memory in use after: 290.7 MB.
+
+Unloading 116 unused Assets to reduce memory usage. Loaded Objects now: 703.
+Total: 1.899575 ms (FindLiveObjects: 0.192304 ms CreateObjectMapping: 0.014616 ms MarkObjects: 1.670608 ms  DeleteObjects: 0.021500 ms)
+
+Import package from :/Users/marcossilva/fb-update/facebook-sdk-for-unity/play-services-resolver.unitypackage !
+DisplayProgressbar: Preparing
+DisplayProgressbar: Preparing Package
+DisplayProgressbar: Importing Package
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.080359 seconds
+Refreshing native plugins compatible for Editor in 9.00 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+
+----- Total AssetImport time: 0.083555s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.070144 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
+
+----- Total AssetImport time: 0.065632s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.075936 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+
+----- Total AssetImport time: 0.068889s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.066333 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
+
+----- Total AssetImport time: 0.061915s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+[usbmuxd] Stop listen thread
+[usbmuxd] Error: 
+[usbmuxd] Listen thread exiting
+Exiting batchmode successfully now!
+Archive:  package-facebook-android-sdk-5.0.0.zip
+  inflating: facebook-core/.DS_Store  
+  inflating: __MACOSX/facebook-core/._.DS_Store  
+  inflating: facebook-core/facebook-core.aar  
+  inflating: facebook-core/NOTICE.txt  
+  inflating: facebook-core/LICENSE.txt  
+  inflating: facebook-applinks/facebook-applinks.aar  
+  inflating: facebook-applinks/NOTICE.txt  
+  inflating: facebook-applinks/LICENSE.txt  
+  inflating: facebook-places/facebook-places.aar  
+  inflating: facebook-places/.DS_Store  
+  inflating: __MACOSX/facebook-places/._.DS_Store  
+  inflating: facebook-places/NOTICE.txt  
+  inflating: facebook-places/LICENSE.txt  
+  inflating: facebook/facebook.aar   
+  inflating: facebook/.DS_Store      
+  inflating: __MACOSX/facebook/._.DS_Store  
+  inflating: facebook-common/.DS_Store  
+  inflating: __MACOSX/facebook-common/._.DS_Store  
+  inflating: facebook-common/facebook-common.aar  
+  inflating: facebook-common/NOTICE.txt  
+  inflating: facebook-common/LICENSE.txt  
+  inflating: facebook-share/facebook-share.aar  
+  inflating: facebook-share/NOTICE.txt  
+  inflating: facebook-share/LICENSE.txt  
+  inflating: facebook-marketing/facebook-marketing.aar  
+  inflating: facebook-marketing/NOTICE.txt  
+  inflating: facebook-marketing/LICENSE.txt  
+  inflating: facebook-login/.DS_Store  
+  inflating: __MACOSX/facebook-login/._.DS_Store  
+  inflating: facebook-login/NOTICE.txt  
+  inflating: facebook-login/facebook-login.aar  
+  inflating: facebook-login/LICENSE.txt  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/constant-values.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/overview-tree.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/index.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/allclasses-noframe.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/index-all.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/resources/titlebar_end.gif  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/resources/tab.gif  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/resources/titlebar.gif  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/resources/background.gif  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/deprecated-list.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/stylesheet.css  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/help-doc.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/allclasses-frame.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/package-list  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/NotificationsManager.PrepareCallback.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/NotificationCardResult.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/package-frame.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/NotificationsManager.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/package-summary.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/package-tree.html  
+  inflating: notifications/FBNotifications-Android/docs/javadoc/com/facebook/notifications/NotificationsManager.NotificationExtender.html  
+  inflating: notifications/FBNotifications-Android/FBNotifications  
+  inflating: facebook-messenger/.DS_Store  
+  inflating: __MACOSX/facebook-messenger/._.DS_Store  
+  inflating: facebook-messenger/facebook-messenger.aar  
+  inflating: facebook-messenger/NOTICE.txt  
+  inflating: facebook-messenger/LICENSE.txt  
+~/fb-update/facebook-sdk-for-unity/facebook-android-wrapper ~/fb-update/facebook-sdk-for-unity
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-android-sdk/5.0.0/facebook-android-sdk-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-core/5.0.0/facebook-core-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-common/5.0.0/facebook-common-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-login/5.0.0/facebook-login-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-share/5.0.0/facebook-share-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-places/5.0.0/facebook-places-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-applinks/5.0.0/facebook-applinks-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-messenger/5.0.0/facebook-messenger-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-marketing/5.0.0/facebook-marketing-5.0.0.pom
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-core/5.0.0/facebook-core-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-common/5.0.0/facebook-common-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-login/5.0.0/facebook-login-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-share/5.0.0/facebook-share-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-places/5.0.0/facebook-places-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-applinks/5.0.0/facebook-applinks-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-messenger/5.0.0/facebook-messenger-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-marketing/5.0.0/facebook-marketing-5.0.0.aar
+Download https://repo1.maven.org/maven2/com/facebook/android/facebook-android-sdk/5.0.0/facebook-android-sdk-5.0.0.aar
+Incremental java compilation is an incubating feature.
+:clean UP-TO-DATE
+
+BUILD SUCCESSFUL
+
+Total time: 16.402 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
+Incremental java compilation is an incubating feature.
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:compileDebugNdk UP-TO-DATE
+:compileLint
+:copyDebugLint UP-TO-DATE
+:checkDebugManifest
+:preDebugAndroidTestBuild UP-TO-DATE
+:preDebugUnitTestBuild UP-TO-DATE
+:preReleaseBuild UP-TO-DATE
+:preReleaseUnitTestBuild UP-TO-DATE
+:prepareAndroidArchLifecycleRuntime103Library
+:prepareComAndroidSupportAnimatedVectorDrawable2702Library
+:prepareComAndroidSupportAppcompatV72702Library
+:prepareComAndroidSupportCardviewV72702Library
+:prepareComAndroidSupportCustomtabs2702Library
+:prepareComAndroidSupportSupportCompat2702Library
+:prepareComAndroidSupportSupportCoreUi2702Library
+:prepareComAndroidSupportSupportCoreUtils2702Library
+:prepareComAndroidSupportSupportFragment2702Library
+:prepareComAndroidSupportSupportMediaCompat2702Library
+:prepareComAndroidSupportSupportV42702Library
+:prepareComAndroidSupportSupportVectorDrawable2702Library
+:prepareComFacebookAndroidFacebookAndroidSdk500Library
+:prepareComFacebookAndroidFacebookApplinks500Library
+:prepareComFacebookAndroidFacebookCommon500Library
+:prepareComFacebookAndroidFacebookCore500Library
+:prepareComFacebookAndroidFacebookLogin500Library
+:prepareComFacebookAndroidFacebookMarketing500Library
+:prepareComFacebookAndroidFacebookMessenger500Library
+:prepareComFacebookAndroidFacebookPlaces500Library
+:prepareComFacebookAndroidFacebookShare500Library
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:mergeDebugShaders
+:compileDebugShaders
+:generateDebugAssets
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:mergeDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:incrementalDebugJavaCompilationSafeguard
+:compileDebugJavaWithJavac
+:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:extractDebugAnnotations
+:mergeDebugProguardFiles
+:packageDebugRenderscript UP-TO-DATE
+:packageDebugResources
+:processDebugJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForDebug
+:transformClassesAndResourcesWithSyncLibJarsForDebug
+:mergeDebugJniLibFolders
+:transformNative_libsWithMergeJniLibsForDebug
+:transformNative_libsWithSyncJniLibsForDebug
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:compileReleaseNdk UP-TO-DATE
+:copyReleaseLint UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:mergeReleaseShaders
+:compileReleaseShaders
+:generateReleaseAssets
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:mergeReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:incrementalReleaseJavaCompilationSafeguard
+:compileReleaseJavaWithJavac
+:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:extractReleaseAnnotations
+:mergeReleaseProguardFiles
+:packageReleaseRenderscript UP-TO-DATE
+:packageReleaseResources
+:processReleaseJavaRes UP-TO-DATE
+:transformResourcesWithMergeJavaResForRelease
+:transformClassesAndResourcesWithSyncLibJarsForRelease
+:mergeReleaseJniLibFolders
+:transformNative_libsWithMergeJniLibsForRelease
+:transformNative_libsWithSyncJniLibsForRelease
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+
+BUILD SUCCESSFUL
+
+Total time: 14.298 secs
+
+This build could be faster, please consider using the Gradle Daemon: https://docs.gradle.org/2.14.1/userguide/gradle_daemon.html
+~/fb-update/facebook-sdk-for-unity
+
+>>>> xbuild tool is deprecated and will be removed in future updates, use msbuild instead <<<<
+
+XBuild Engine Version 14.0
+Mono, Version 5.20.1.19
+Copyright (C) 2005-2013 Various Mono authors
+
+Build started 5/10/2019 4:54:56 PM.
+__________________________________________________
+Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.sln" (default target(s)):
+	Target ValidateSolutionConfiguration:
+		Building solution configuration "Release|Any CPU".
+	Target Build:
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/Facebook.Unity.Settings.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.Settings.dll Properties/AssemblyInfo.cs FacebookSettings.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/obj/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/obj/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/Facebook.Unity.Settings.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android.StrippingHack/Facebook.Unity.Android.StrippingHack.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /optimize+ /out:obj/Release/Facebook.Unity.Android.dll AndroidWrapper.cs Properties/AssemblyInfo.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android.StrippingHack/obj/Release/Facebook.Unity.Android.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android.StrippingHack/bin/Release/Facebook.Unity.Android.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android.StrippingHack/Facebook.Unity.Android.StrippingHack.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS.StrippingHack/Facebook.Unity.IOS.StrippingHack.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /optimize+ /out:obj/Release/Facebook.Unity.IOS.dll IOSWrapper.cs Properties/AssemblyInfo.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS.StrippingHack/obj/Release/Facebook.Unity.IOS.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS.StrippingHack/bin/Release/Facebook.Unity.IOS.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS.StrippingHack/Facebook.Unity.IOS.StrippingHack.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/Facebook.Unity.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.dll AccessToken.cs AppEventName.cs AppEventParameterName.cs CallbackManager.cs ComponentFactory.cs Constants.cs FB.cs FacebookBase.cs FacebookGameObject.cs FacebookSdkVersion.cs FacebookUnityPlatform.cs IFacebook.cs IFacebookCallbackHandler.cs IFacebookImplementation.cs IFacebookResultHandler.cs IPayFacebook.cs MethodArguments.cs MethodCall.cs NativeDialogModes.cs OGActionType.cs Canvas/CanvasFacebook.cs Canvas/CanvasFacebookGameObject.cs Canvas/CanvasFacebookLoader.cs Canvas/ICanvasFacebook.cs Canvas/ICanvasFacebookCallbackHandler.cs Canvas/ICanvasFacebookImplementation.cs Canvas/ICanvasFacebookResultHandler.cs Canvas/ICanvasJSWrapper.cs Canvas/JsBridge.cs Mobile/IMobileFacebook.cs Mobile/IMobileFacebookCallbackHandler.cs Mobile/IMobileFacebookImplementation.cs Mobile/IMobileFacebookResultHandler.cs Mobile/MobileFacebook.cs Mobile/MobileFacebookGameObject.cs Mobile/Android/AndroidFacebook.cs Mobile/Android/AndroidFacebookGameObject.cs Mobile/Android/AndroidFacebookLoader.cs Mobile/Android/IAndroidWrapper.cs Mobile/IOS/IIOSWrapper.cs Mobile/IOS/IOSFacebook.cs Mobile/IOS/IOSFacebookGameObject.cs Mobile/IOS/IOSFacebookLoader.cs PlatformEditor/EditorFacebook.cs PlatformEditor/EditorFacebookGameObject.cs PlatformEditor/EditorFacebookLoader.cs PlatformEditor/EditorFacebookMockDialog.cs PlatformEditor/EditorWrapper.cs PlatformEditor/IEditorWrapper.cs PlatformEditor/MockDialogs/EmptyMockDialog.cs PlatformEditor/MockDialogs/MockLoginDialog.cs PlatformEditor/MockDialogs/MockShareDialog.cs Properties/AssemblyInfo.cs Results/AccessTokenRefreshResult.cs Results/AppInviteResult.cs Results/AppLinkResult.cs Results/AppReqeustResult.cs Results/GraphResult.cs Results/GroupCreateResult.cs Results/GroupJoinResult.cs Results/IAccessTokenRefreshResult.cs Results/IAppInviteResult.cs Results/IAppLinkResult.cs Results/IAppRequestResult.cs Results/IGraphResult.cs Results/IGroupCreateResult.cs Results/IGroupJoinResult.cs Results/IInternalResult.cs Results/ILoginResult.cs Results/IPayResult.cs Results/IResult.cs Results/IShareResult.cs Results/LoginResult.cs Results/PayResult.cs Results/ResultBase.cs Results/ResultContainer.cs Results/ShareResult.cs Utils/AsyncRequestString.cs Utils/FacebookLogger.cs Utils/HttpMethod.cs Utils/IFacebookLogger.cs Utils/MiniJson.cs Utils/Utilities.cs Utils/FBUnityUtility.cs Utils/AsyncRequestStringWrapper.cs Utils/IAsyncRequestStringWrapper.cs Utils/FacebookScheduler.cs Utils/IFacebookScheduler.cs Utils/IFacebookSchedulerFactory.cs Utils/FacebookSchedulerFactory.cs Results/IHasLicenseResult.cs Results/HasLicenseResult.cs Gameroom/GameroomFacebook.cs Gameroom/GameroomFacebookGameObject.cs Gameroom/GameroomFacebookLoader.cs Gameroom/IGameroomFacebook.cs Gameroom/IGameroomFacebookImplementation.cs Gameroom/IGameroomFacebookResultHandler.cs Gameroom/IGameroomWrapper.cs Utils/CodelessIAPAutoLog.cs /target:library /warnaserror+ /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Xml.dll /reference:/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release//Facebook.Unity.Settings.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/obj/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/obj/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/Facebook.Unity.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/Facebook.Unity.Tests.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target _GenerateTargetFrameworkMonikerAttribute:
+			Skipping target "_GenerateTargetFrameworkMonikerAttribute" because its outputs are up-to-date.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug- /optimize+ /out:obj/Release/Facebook.Unity.Tests.dll FacebookTestClass.cs Canvas/UserAgent.cs Canvas/Pay.cs MockResults.cs AppRequest.cs FeedShare.cs Login.cs ShareLink.cs AppEvents.cs Gameroom/GameroomTestAttribute.cs Canvas/CanvasTestAttribute.cs UserAgent.cs Gameroom/AppRequest.cs Gameroom/Login.cs Canvas/AppEvents.cs Canvas/AppLinks.cs Canvas/AppRequest.cs Canvas/FeedShare.cs Canvas/Login.cs Canvas/ShareLink.cs Canvas/MockCanvas.cs Gameroom/MockGameroom.cs MockWrapper.cs Mobile/IOS/UserAgent.cs Mobile/IOS/IOSTestAttribute.cs Mobile/IOS/AppEvents.cs Mobile/IOS/AppInvite.cs Mobile/IOS/AppLinks.cs Mobile/IOS/AppRequest.cs Mobile/IOS/FeedShare.cs Mobile/IOS/Login.cs Mobile/IOS/ShareLink.cs Mobile/Android/AppInvite.cs Mobile/Android/ShareLink.cs Mobile/Android/Login.cs Mobile/Android/AppLinks.cs Mobile/Android/UserAgent.cs Mobile/Android/FeedShare.cs Mobile/Android/AppRequest.cs Mobile/Android/AppEvents.cs Mobile/Android/AndroidTestAttribute.cs Mobile/AppInvite.cs Mobile/Login.cs AppLinks.cs Mobile/AppLinks.cs Mobile/Android/MockAndroid.cs Mobile/IOS/MockIOS.cs Mobile/AccessTokenRefresh.cs Mobile/IOS/AccessTokenRefresh.cs Mobile/Android/AccessTokenRefresh.cs TestUtilities.cs Init.cs Editor/MockEditor.cs Editor/EditorTestAttribute.cs Gameroom/Init.cs Editor/Init.cs Canvas/Init.cs Mobile/Android/Init.cs Mobile/IOS/Init.cs Editor/AccessTokenRefresh.cs Editor/AppInvite.cs Editor/AppRequest.cs Editor/FeedShare.cs Editor/Login.cs Editor/ShareLink.cs Editor/UserAgent.cs Properties/AssemblyInfo.cs VersionNumberCheck.cs obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs /target:library /warnaserror+ /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/4.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/nunit.core.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/nunit.mocks.dll /reference:../packages/NSubstitute.2.0.3/lib/net40/NSubstitute.dll /reference:../packages/NUnit.3.6.1/lib/net40/nunit.framework.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/4.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/4.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/obj/Release/Facebook.Unity.Tests.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/bin/Release/Facebook.Unity.Tests.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Tests/Facebook.Unity.Tests.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/Facebook.Unity.Editor.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.Editor.dll /resource:obj/Release/Facebook.Unity.Editor.android.DefaultAndroidManifest.xml FacebookBuild.cs FacebookConsoleEndpoint.cs FacebookPostprocess.cs FacebookSettingsEditor.cs Utility.cs android/FacebookAndroidUtil.cs android/ManifestMod.cs iOS/FixupFiles.cs iOS/PListDict.cs iOS/PListParser.cs Properties/AssemblyInfo.cs android/AndroidSupportLibraryResolver.cs /target:library /warnaserror+ /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Xml.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Xml.Linq.dll /reference:../UnitySDK/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Settings/bin/Release//Facebook.Unity.Settings.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/obj/Release/Facebook.Unity.Editor.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.Editor.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/obj/Release/Facebook.Unity.Editor.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/bin/Release/Facebook.Unity.Editor.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Editor/Facebook.Unity.Editor.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/Facebook.Unity.Android.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.Android.dll Properties/AssemblyInfo.cs AndroidWrapper.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/obj/Release/Facebook.Unity.Android.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.Android.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/obj/Release/Facebook.Unity.Android.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/bin/Release/Facebook.Unity.Android.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Android/Facebook.Unity.Android.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/Facebook.Unity.IOS.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.IOS.dll Properties/AssemblyInfo.cs IOSWrapper.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/obj/Release/Facebook.Unity.IOS.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.IOS.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/obj/Release/Facebook.Unity.IOS.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/bin/Release/Facebook.Unity.IOS.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.IOS/Facebook.Unity.IOS.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/Facebook.Unity.Gameroom.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug- /optimize+ /out:obj/Release/Facebook.Unity.Gameroom.dll Properties/AssemblyInfo.cs GameroomWrapper.cs /target:library /warnaserror+ /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:Plugins/FacebookNamedPipeClient.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/obj/Release/Facebook.Unity.Gameroom.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/bin/Release/Facebook.Unity.Gameroom.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Gameroom/Facebook.Unity.Gameroom.csproj".
+		Project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/Facebook.Unity.Canvas.csproj" (default target(s)):
+			Target PrepareForBuild:
+				Configuration: Release Platform: AnyCPU
+			Target CopyFilesMarkedCopyLocal:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.Settings.dll'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release/Facebook.Unity.Settings.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.Settings.pdb'
+			Target GenerateSatelliteAssemblies:
+			No input files were specified for target GenerateSatelliteAssemblies, skipping.
+			Target CoreCompile:
+				Tool /usr/local/Cellar/mono/5.20.1.19/lib/mono/4.5/csc.exe execution started with arguments: /noconfig /debug:full /optimize+ /out:obj/Release/Facebook.Unity.Canvas.dll Properties/AssemblyInfo.cs CanvasJSWrapper.cs /target:library /nostdlib /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.dll /reference:../../../../../Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api/System.Core.dll /reference:/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity/bin/Release//Facebook.Unity.dll /reference:/usr/local/Cellar/mono/5.20.1.19/lib/mono/2.0-api//mscorlib.dll /warn:4
+				Microsoft (R) Visual C# Compiler version 2.8.2.62916 (2ad4aabc)
+				Copyright (C) Microsoft Corporation. All rights reserved.
+			Target _CopyDeployFilesToOutputDirectoryPreserveNewest:
+			Skipping target "_CopyDeployFilesToOutputDirectoryPreserveNewest" because its outputs are up-to-date.
+			Target DeployOutputFiles:
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/obj/Release/Facebook.Unity.Canvas.pdb' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.Canvas.pdb'
+				Copying file from '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/obj/Release/Facebook.Unity.Canvas.dll' to '/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/bin/Release/Facebook.Unity.Canvas.dll'
+		Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.Unity.Canvas/Facebook.Unity.Canvas.csproj".
+Done building project "/Users/marcossilva/fb-update/facebook-sdk-for-unity/Facebook.sln".
+
+Build succeeded.
+	 0 Warning(s)
+	 0 Error(s)
+
+Time Elapsed 00:00:10.8191720

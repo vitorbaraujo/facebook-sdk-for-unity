@@ -48,10 +48,10 @@ else
       echo "${RED}Error: 'FB_IOS_RESOURCE_NAME' not defined in $PROPS_PATH ${NC}"
       exit 1
     fi
-    packageName="facebook-ios-sdk-$FB_IOS_SDK_VERSION"
-    curl -L "https://origincache.facebook.com/developers/resources/?id=$FB_IOS_RESOURCE_NAME" -o "$packageName.zip"
+    packageName="fb5.0.0"
+    # curl -L "https://github.com/facebook/facebook-objc-sdk/archive/v5.0.0.zip" -o "$packageName.zip"
 
-    unzip -q "$packageName.zip" -d $packageName
+    unzip -q "$UNITY_PACKAGE_ROOT/../scripts/fb5.0.0.zip" -d $packageName
     sdkFolder="$PROJECT_ROOT/tempIosBuild/$packageName"
 fi
 
